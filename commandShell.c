@@ -146,7 +146,7 @@ char *command(char *array[]){
 				cmd[j] = string[k];	
 				j++;
 			}	
-			cmd[j++] = ' ';
+			cmd[j++] = ' '; 
 			counter++;
 		}	
 	} while( string != NULL && counter < BUFSIZ);
